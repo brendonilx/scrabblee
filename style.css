@@ -1,0 +1,106 @@
+﻿/*
+Brendon So
+Copyright 2024
+Umass Lowell
+email: Brendon_So@student.uml.edu
+*/
+.container {
+    border: 5px solid saddlebrown;
+    border-radius: 10px;
+    height: 500px;
+    width: 600px;
+    background-color: lightyellow;
+    margin: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+button {
+    background-color: white;
+    padding: 10px 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+
+}
+button:hover {
+  background-color: green;
+}
+
+button:active {
+  background-color: gold;
+}
+
+.double {
+    height: 38px;
+    width: 35px;
+    border: 2px solid black;
+    margin-left: 74px;
+}
+
+.double2 {
+    height: 40px;
+    width: 35px;
+    border:2px solid black;
+    margin-left: 220px;
+}
+
+
+.board {
+    height: 40px;
+    width: 550px;
+    background-image: url("images/Scrabble_Board_OneLine.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+
+    background-position: center;
+}
+
+.scoreboard {
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 170px;
+    width: 150px;
+    background-color: saddlebrown;
+    margin: auto;
+    padding-bottom: 40px;
+}
+ p {
+     color: white;
+    font-size: 11px;
+    text-align: center;
+    padding-top: 1px;
+ }
+
+
+.rack_backround {
+
+    height: 90px;
+    width: 320px;
+    background-image: url("images/holder.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+#rack {
+    padding-top: 25px;
+
+    height: 200px;
+    width: 600px;
+    margin: auto;
+}
+
+
+.box {
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+}
+.space {
+    width: 35px;
+    height: 35px;
+}
+
+.space2 {
+    width: 35px;
+    height: 75px;
+}
